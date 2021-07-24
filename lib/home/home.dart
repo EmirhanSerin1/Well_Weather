@@ -49,8 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
       width: double.infinity,
       height: MediaQuery.of(context).size.height / 2,
       decoration: BoxDecoration(
-        image: DecorationImage(image: AssetImage("assets/partly_cloudly.jpg"), fit: BoxFit.cover),
-        borderRadius: BorderRadius.circular(44),
+        image: DecorationImage(image: AssetImage("assets/sun.jpg"), fit: BoxFit.cover),
+        borderRadius: BorderRadius.vertical(bottom: Radius.circular(44)),
         color: Color(0xFF4AC7DD),
       ),
       child: Column(
@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: EdgeInsets.fromLTRB(0, 8, 0, 8),
             child: Text(
-              "İstanbul",
+              "Antalya",
               style: TextStyle(fontSize: Theme.of(context).textTheme.headline6!.fontSize, color: Colors.white),
             ),
           ),
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
           
           */
           Text(
-            "22\u00B0",
+            "30\u00B0",
             style: TextStyle(
               fontSize: Theme.of(context).textTheme.headline3!.fontSize,
               color: Colors.white,
