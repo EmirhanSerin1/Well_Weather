@@ -18,11 +18,11 @@ buildMoreInfo(BuildContext context) {
               padding: const EdgeInsets.all(8.0),
               child: ListView(
                 children: [
-                  buildInfo(context, FontAwesomeIcons.thermometerHalf, "Temperature", "30\u00B0"),
+                  buildInfo(context, FontAwesomeIcons.thermometerHalf, "Temperature", "22\u00B0"),
                   SizedBox(height: 50),
                   buildInfo(context, FontAwesomeIcons.cloudSun, "Weather", "Partly Coludly"),
                   SizedBox(height: 50),
-                  buildInfo(context, FontAwesomeIcons.wind, "Wind Speed", "6 km/s"),
+                  buildInfo(context, FontAwesomeIcons.wind, "Wind Speed", "14 km/s"),
                 ],
               ),
             ),
